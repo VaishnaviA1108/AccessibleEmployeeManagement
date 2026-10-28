@@ -2,5 +2,29 @@
     ViewData["Title"] = "Employees";
 }
 
-<h1>Employees</h1>
-<p>Welcome to the Employee Management page.</p>
+<div class="container py-4">
+    <div class="mb-4">
+        <h1 class="display-6 fw-bold">Employees</h1>
+        <p class="text-secondary">
+            View and manage employee records.
+        </p>
+    </div>
+
+    <section aria-labelledby="directory-heading" class="mt-4">
+        <div class="card shadow-sm">
+            <div class="card-body p-4">
+                <h2 id="directory-heading" class="h4 mb-3">
+                    Employee directory
+                </h2>
+
+                <div class="border rounded p-4 text-center">
+                    <h3 class="h5">No employee records yet</h3>
+                    <p class="text-secondary mb-0">
+                        Employee data has not been connected yet.
+                        Records will appear here when available.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
